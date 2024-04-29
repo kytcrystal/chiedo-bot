@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "chiedo-bot"
+version = "0.1.0"
+description = ""
+authors = ["Crystal Kwok <kwokyatingcrystal@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+farm-haystack = {extras = ["crawler", "inference", "opensearch", "preprocessing"], version = "^1.25.5"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

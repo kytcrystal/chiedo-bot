@@ -15,3 +15,11 @@ This project aims to explore the following questions:
 2. How does the application scale and perform?
 3. What are the most costly components in terms of time and price?
 4. How does the application ensure reliability?
+
+## Notes
+
+To run the demo script in local may need to set the following variable:
+```sh
+export PYTORCH_ENABLE_MPS_FALLBACK=1
+poetry run python3 demo-script.py 
+```
