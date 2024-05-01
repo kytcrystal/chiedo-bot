@@ -23,3 +23,15 @@ To run the demo script in local may need to set the following variable:
 export PYTORCH_ENABLE_MPS_FALLBACK=1
 poetry run python3 demo-script.py 
 ```
+
+To run docker compose, first increase virtual memory limit
+```
+colima ssh
+sudo sysctl -w vm.max_map_count=262144
+exit
+```
+
+## Sample Questions
+1. What is the tuition fees fuori corso?
+2. What is the fine for delayed payment?
+3. How much is the revenue stamp?
